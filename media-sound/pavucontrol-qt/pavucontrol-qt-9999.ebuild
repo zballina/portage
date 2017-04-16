@@ -18,10 +18,9 @@ DEPEND="
 	dev-qt/qtcore:5
 	dev-qt/qtwidgets:5
 	dev-qt/linguist-tools:5
-	x11-misc/xdg-user-dirs
         >=media-libs/libcanberra-0.16
         >=media-sound/pulseaudio-3[glib]
 	~lxqt-base/liblxqt-${PV}
-	~dev-libs/libqtxdg-${PV}"
+	~dev-util/lxqt-build-tools-0.2"
 
 RDEPEND="${DEPEND}"
