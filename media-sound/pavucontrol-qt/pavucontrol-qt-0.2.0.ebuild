@@ -8,19 +8,18 @@ inherit cmake-utils
 DESCRIPTION="LXQt about dialog"
 HOMEPAGE="http://lxqt.org/"
 
-inherit git-r3
-EGIT_REPO_URI="https://github.com/lxde/${PN}.git"
+SRC_URI="https://github.com/lxde/${PN}/archive/${PV}.tar.gz"
+KEYWORDS="~amd64 ~arm ~arm64 ~x86"
 
 LICENSE="GPL-2 LGPL-2.1+"
 SLOT="0"
 
-DEPEND="
-	dev-qt/qtcore:5
+DEPEND="dev-qt/qtcore:5
 	dev-qt/qtwidgets:5
 	dev-qt/linguist-tools:5
         >=media-libs/libcanberra-0.16
         >=media-sound/pulseaudio-3[glib]
-	~lxqt-base/liblxqt-${PV}
 	>=dev-util/lxqt-build-tools-0.2"
+#	>=lxqt-base/liblxqt-0.11
 
 RDEPEND="${DEPEND}"
