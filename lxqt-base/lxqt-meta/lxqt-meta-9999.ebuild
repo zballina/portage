@@ -16,7 +16,6 @@ REQUIRED_USE="oxygen? ( icons )"
 
 RDEPEND="
 	>=lxde-base/lxmenu-data-0.1.2
-	~lxqt-base/lxqt-common-${PV}
 	~lxqt-base/lxqt-config-${PV}
 	~lxqt-base/lxqt-globalkeys-${PV}
 	~lxqt-base/lxqt-notificationd-${PV}
@@ -24,10 +23,11 @@ RDEPEND="
 	~lxqt-base/lxqt-qtplugin-${PV}
 	~lxqt-base/lxqt-runner-${PV}
 	~lxqt-base/lxqt-session-${PV}
+	~lxqt-base/lxqt-themes-${PV}
 	~media-sound/pavucontrol-qt-${PV}
 	virtual/ttf-fonts
 	about? ( ~lxqt-base/lxqt-about-${PV} )
-	networkmanager? ( lxqt-base/nm-tray ) 
+	networkmanager? ( gnome-extra/nm-applet ) 
 	admin? ( ~lxqt-base/lxqt-admin-${PV} )
 	filemanager? ( ~x11-misc/pcmanfm-qt-${PV} )
 	icons? ( oxygen? ( kde-frameworks/oxygen-icons )

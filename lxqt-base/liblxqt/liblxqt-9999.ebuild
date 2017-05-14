@@ -15,7 +15,7 @@ LICENSE="GPL-2 LGPL-2.1+"
 SLOT="0"
 
 RDEPEND="=dev-libs/libqtxdg-${PV}
-	=lxqt-base/lxqt-build-tools-${PV}
+	>=dev-util/lxqt-build-tools-0.2
 	dev-qt/qtcore:5
 	dev-qt/qtdbus:5
 	dev-qt/qtgui:5

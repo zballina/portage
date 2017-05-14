@@ -24,7 +24,6 @@ RDEPEND="
 	dev-qt/qtxml:5
 	kde-frameworks/kwindowsystem:5
 	~lxqt-base/liblxqt-${PV}
-	>=lxqt-base/lxqt-common-${PV}
 "
 DEPEND="${RDEPEND}
 	dev-qt/linguist-tools:5

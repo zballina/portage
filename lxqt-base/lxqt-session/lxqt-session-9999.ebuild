@@ -31,8 +31,7 @@ DEPEND="${CDEPEND}
 	dev-util/intltool
 	sys-devel/gettext
 	virtual/pkgconfig"
-RDEPEND="${CDEPEND}
-	>=lxqt-base/lxqt-common-${PV}"
+RDEPEND="${CDEPEND}"
 
 src_install(){
 	cmake-utils_src_install
